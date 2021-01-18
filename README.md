@@ -26,7 +26,7 @@ sometimes you need to define complex objects with a lot of arguments in developi
 builder design pattern allows for the step-by-step creation of complex objects using the correct sequence of actions. The construction is controlled by a director object that only needs to know the type of object it is to create.
 
 
-## Structuraal Design Patterns
+## Structural Design Patterns
 
 ### Dependency Injection
 
@@ -49,3 +49,17 @@ when we have a complex system, It is important to hide internal complexity behin
 #### How?
 
 Example : When we have to start a computer, all we have to do is press the start button. We really do not care what all things go inside the computer hardware and software. It is an example of Facade pattern.
+
+
+## Behavioral Design Patterns
+
+### Observer
+
+
+#### Why?
+
+whenever the subject change , it's dependencies have to know about this update , but we don't want call them each time. we want to alert them automatically.
+
+#### How?
+
+The subject will attach to it's dependencies (known as observers) and every time it change, observers notified automatically and whenever it is no need to this , the subject can be detached from observers.
