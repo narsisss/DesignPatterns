@@ -6,7 +6,7 @@
 
 #### Why?
 
-<b style="color:red"> The most important thing that you have to know before using any design pattern is the cause of using. </b>
+<b style='color:red'> The most important thing that you have to know before using any design pattern is the cause of using. </b></br>
 Application needs one, and only one, instance of an object.
 
 
