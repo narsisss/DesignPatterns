@@ -38,3 +38,14 @@ sometimes by changing the app or developing new features we have to change the d
 #### How?
 
 It must set a configuration as preparing object and pass it to another class indirectly as it saied inject the dependecy into the class. 
+
+
+### Facade
+
+#### Why?
+
+when we have a complex system, It is important to hide internal complexity behind a single interface that appears simple from the outside.
+
+#### How?
+
+Example : When we have to start a computer, all we have to do is press the start button. We really do not care what all things go inside the computer hardware and software. It is an example of Facade pattern.
