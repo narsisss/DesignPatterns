@@ -13,7 +13,7 @@ Application needs one, and only one, instance of an object.
 
 #### Why?
 
-sometimes you need define complex objects with a lot of arguments in developing the application, so just imagine what happened in constructor of class with a large number of arguments and how much it is difficult to create an instance or developing new features???
+sometimes you need to define complex objects with a lot of arguments in developing the application, so just imagine what happened in constructor of class with a large number of arguments and how much it is difficult to create an instance or developing new features???
 
 
 #### How?
