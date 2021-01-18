@@ -18,7 +18,7 @@ singleton design pattern says to create a SingleObject class. SingleObject class
 
 #### Why?
 
-sometimes you need to define complex objects with a lot of arguments in developing the application, so just imagine what happened in constructor of class with a large number of arguments and how much it is difficult to create an instance or developing new features???
+sometimes you need to define complex objects with a lot of arguments in developing the application, so just imagine what happened in a constructor of class with numerous arguments and how much it is difficult to create an instance or developing new features???
 
 
 #### How?
@@ -32,12 +32,12 @@ builder design pattern allows for the step-by-step creation of complex objects u
 
 #### Why?
 
-sometimes by changing the app or developing new features we have to change the dependency in a class that it cause to change a class that must not be altered. so dependency injection makes a class independent of its dependencies. It means that i avoid the direct dependency from classes to get better maintaning and improve testablity. and in the feature we can extend application easier.
+sometimes by changing the app or developing new features we have to change the dependency in a class that it cause to change a class that must not be altered. so dependency injection makes a class independent of its dependencies. It means that I avoid the direct dependency from classes to get better maintaining and improve testability. so in the feature we can extend application easier.
 
 
 #### How?
 
-It must set a configuration as preparing object and pass it to another class indirectly as it saied inject the dependecy into the class. 
+It must set a configuration as preparing object and pass it to another class indirectly as it said inject the dependency into the class. 
 
 
 ### Facade
@@ -62,4 +62,15 @@ whenever the subject change , it's dependencies have to know about this update ,
 
 #### How?
 
-The subject will attach to it's dependencies (known as observers) and every time it change, observers notified automatically and whenever it is no need to this , the subject can be detached from observers.
+The subject will attach to its dependencies (known as observers) and every time it changes, observers notified automatically and whenever it is no need to this , the subject can be detached from observers.
+
+### Strategy
+
+
+#### Why?
+
+Let's suppose there are some ways for a same issue which the application selects different ways in basis of conditions, so Strategy lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
+
+#### How?
+
+There is a Context as Strategy Class that decides which class is suitable for this situation, and encapsulate separately algorithms from the client.
