@@ -6,8 +6,13 @@
 
 #### Why?
 
-*The most important thing that you have to know before using any design pattern is the cause of using. 
+<b style="color:red"> The most important thing that you have to know before using any design pattern is the cause of using. </b>
 Application needs one, and only one, instance of an object.
+
+
+#### How?
+
+singleton design pattern says to create a SingleObject class. SingleObject class have its <b>constructor as private</b> and have a <b>static instance</b> of itself.
 
 ### Builder
 
