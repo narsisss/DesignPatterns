@@ -12,7 +12,7 @@ Application needs one, and only one, instance of an object.
 
 #### How?
 
-singleton design pattern says to create a SingleObject class. SingleObject class have its <b>constructor as private</b> and have a <b>static instance</b> of itself.
+singleton design pattern says to create a SingleObject class. SingleObject class has its <b>constructor as private</b> and a <b>static instance</b> of itself.
 
 ### Builder
 
