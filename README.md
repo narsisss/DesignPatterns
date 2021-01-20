@@ -58,7 +58,7 @@ Example : When we have to start a computer, all we have to do is press the start
 
 #### Why?
 
-whenever the subject change , it's dependencies have to know about this update , but we don't want call them each time. we want to alert them automatically.
+whenever the subject change , it's dependencies have to know about this update , but we don't want to call them each time. we want to alert them automatically.
 
 #### How?
 
